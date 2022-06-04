@@ -1,0 +1,35 @@
+body {
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: Arial, Verdana, Sans-Serif;
+}
+.captionOrange, .captionBlack {
+	color:#000;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 4px; font-family:Verdana, Geneva, sans-serif;
+}
+.captionOrange {
+	background: #000;
+	background-color: rgba(235, 81, 0, 0.6);
+}
+.captionBlack {
+	font-size:15px;
+	/*background: #000;
+	background-color: rgba(0, 0, 0, 0.4);*/
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover {
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon {
+	background:url(img/browser-icons.png);
+}

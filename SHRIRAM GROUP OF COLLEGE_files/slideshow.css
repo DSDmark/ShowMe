@@ -1,0 +1,58 @@
+/**************************************************************
+
+	SlideShow
+	v 1.3
+
+**************************************************************/
+
+.slideshowContainer {
+	border: 1px solid #ccc;
+	width: 400px;
+	height: 267px;
+	margin-bottom: 5px;
+}
+
+.loading {
+	background: url(file://///Admen1/WEBSITE/ADMENWEB/SRGOC.ORG/New/CSSFiles/loading.gif) center no-repeat;
+}
+
+.slideshowThumbnail {
+	outline: none;
+}
+
+.slideshowThumbnail img {
+	border: 1px solid white;
+	padding: 4px;
+}
+
+a:hover.slideshowThumbnail img {
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+.current img {
+	border: 1px solid red;
+	padding: 5px;
+}
+
+a {
+	color: #607293;
+	text-decoration: none;
+}
+
+.container {
+
+}
+
+.outline {
+	border: 1px solid orange;
+	z-index: 0;
+	position: absolute;
+}
+
+#thumbnails {
+	/*width: 130px;
+	float: left;*/
+}
+
+/*************************************************************/
